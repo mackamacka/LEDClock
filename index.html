@@ -3,35 +3,30 @@
 <head>
     <title>Melbourne Time</title>
     <style>
-    @font-face {
-            font-family: 'CustomFont';
-            src: url: ('https://fonts.google.com/specimen/Young+Serif');
-            font-weight: normal;
-            font-style: normal;
-        }
-        
-        body {
-            background-color: #000000;
-            font-family: 'CustomFont', sans-serif;
-            text-align: center;
-            font-size: 2em;
-            margin: 0; /* Added to remove default margin */
-        }
-        
-        #melbourne-time {
-            font-family: 'CustomFont', sans-serif;
-            font-weight: bold;
-            font-size: 37vw;
-            color: rgb(57, 255, 20);
-            position: absolute;
-            top: 0; /* Adjusted to start from the top */
-            left: 50%;
-            transform: translate(-50%, 0) scaleY(2);
-            line-height: 1; /* Added to remove extra space */
-            height: 100vh; /* Added to set the height to the viewport height */
-            display: flex;
-            align-items: center; /* Added to vertically center the time */
-        }
+    @import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+    body {
+        background-color: #000000;
+        font-family: 'Young Serif', sans-serif;
+        text-align: center;
+        font-size: 2em;
+        margin: 0;
+    }
+
+    #melbourne-time {
+        font-family: 'Young Serif', sans-serif;
+        font-weight: bold;
+        font-size: 37vw;
+        color: rgb(57, 255, 20);
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0) scaleY(2);
+        line-height: 1;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
     </style>
 </head>
 <body>
